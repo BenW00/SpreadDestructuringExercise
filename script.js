@@ -57,6 +57,14 @@ const bonus = {
   };
 
 // Question 5A
-const all = 
+const all = [...bonus.first, ...bonus.second, ...bonus.third]
 
-console.log(all)
+// Question 5B
+const [one, two, three] = bonus.first
+const [four, five, six] = bonus.second
+const [seven, eight, nine] = bonus.third
+
+// const [one, two, three, four, five, six, seven, eight, nine] = all
+
+console.log(five)
+
